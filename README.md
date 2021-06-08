@@ -17,12 +17,12 @@ In this challenge, I will be doing the following:
 
 Using the MechaCar_mpg.csv dataset, I designed a linear regression model that predicts the mpg of MechaCar prototypes using variables such as: vehicle length, weight, ground clearance, drivetrain (AWD), and spoiler angle. Here are the results of my model: 
 
-![1](https://user-images.githubusercontent.com/45697471/121124026-3b8c5e00-c7f2-11eb-92f1-d7fb5774a6a4.png)
+  ![1](https://user-images.githubusercontent.com/45697471/121124026-3b8c5e00-c7f2-11eb-92f1-d7fb5774a6a4.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - As we can see from the P-scores returned from the summary of the regression model, the variables that statistically provided a non-random amount of variance to the mpg values were: vehicle weight, spoiler angle, and AWD. This is true because they all returned a p-value above 0.05, which was our significance level. 
 
-![2](https://user-images.githubusercontent.com/45697471/121124029-3cbd8b00-c7f2-11eb-814a-d22514f40e3b.png)
+  ![2](https://user-images.githubusercontent.com/45697471/121124029-3cbd8b00-c7f2-11eb-814a-d22514f40e3b.png)
 
 
 Is the slope of the linear model considered to be zero? Why or why not?
@@ -35,13 +35,13 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 This section of the analysis answers the following question: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-![4](https://user-images.githubusercontent.com/45697471/121124130-6676b200-c7f2-11eb-9538-76c7eb161d6f.png)
+  ![4](https://user-images.githubusercontent.com/45697471/121124130-6676b200-c7f2-11eb-9538-76c7eb161d6f.png)
 
 - As shown in the image, the summary statistics for the summary coils are as follows: Mean = 1498.78, Median = 1500, Variance = 62.29356, and Standard deviation = 7.892627
 - Since the mean and median in our summary statistics are quite similar, we can say that the dataset has a normal distribution. 
 - Based on our results, the variance is rougly 62 pounds per square inch for all the lots, which is siginificantly less than the 100 pounds per square inch requirement. Meaning the current manufacturing data for all lots meets the design specification. However, when we look at the variance figures for lot 3, specifically, the variance value is 170, which is much higher than the design specification. For this reason, we can conclude that only lots 1 and 2 meet the design specification when looked at individually. 
 
-![3](https://user-images.githubusercontent.com/45697471/121124158-7098b080-c7f2-11eb-9543-1d5a2d0f2712.png)
+  ![3](https://user-images.githubusercontent.com/45697471/121124158-7098b080-c7f2-11eb-9543-1d5a2d0f2712.png)
 
 ## T-Tests on Suspension Coils 
 
