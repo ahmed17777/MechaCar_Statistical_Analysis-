@@ -51,11 +51,10 @@ This section of the analysis answers the following question: The design specific
 
 - When conducting the same t-test using the subset() argument to determine if the PSI for *each* manufacturing lot is statiscally different from the population mean of 1,500 pounds per square inch, we find that Lot 1 and 2 return a p-value greater than 0.05. However Lot 3 returns a p-value of 0.04168. This means that we can reject the null hypothesis for this lot and that the two means are not statistically similar. 
 
-<p align="center">
   ![6](https://user-images.githubusercontent.com/45697471/121124444-f0bf1600-c7f2-11eb-9014-3643a55ddef1.png)
   ![7](https://user-images.githubusercontent.com/45697471/121124447-f1f04300-c7f2-11eb-83a9-d59395d2f4d3.png)
   ![8](https://user-images.githubusercontent.com/45697471/121124452-f4529d00-c7f2-11eb-87b0-46f049e65de4.png)
-</p>
+
 
 ## Study Design: MechaCar vs Competition 
 
