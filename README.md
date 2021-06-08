@@ -17,7 +17,7 @@ In this challenge, I will be doing the following:
 
 Using the MechaCar_mpg.csv dataset, I designed a linear regression model that predicts the mpg of MechaCar prototypes using variables such as: vehicle length, weight, ground clearance, drivetrain (AWD), and spoiler angle. Here are the results of my model: 
 
-<img src="https://github.com/ahmed17777/MechaCar_Statistical_Analysis-/tree/main/img/1.png" width="48">
+<img src="MechaCar_Statistical_Analysis-/tree/main/img/1.png" width="48">
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - As we can see from the P-scores returned from the summary of the regression model, the variables that statistically provided a non-random amount of variance to the mpg values were: vehicle weight, spoiler angle, and AWD. This is true because they all returned a p-value above 0.05, which was our significance level. 
