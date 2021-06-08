@@ -45,10 +45,17 @@ This section of the analysis answers the following question: The design specific
 
 ## T-Tests on Suspension Coils 
 
+- The one-sample t-test was used to figure out if there is a statistical difference in PSI across all manufacturing lots from the population mean of 1,500 pounds per square inch. As we can see from the image, this test returned a p-score of 0.06028, which is greater than our significance level of 0.05, meaning that we cannot reject the null hypothesis. Therefore, the two means are statistically similar. 
+
 ![5](https://user-images.githubusercontent.com/45697471/121124181-7d1d0900-c7f2-11eb-9bc9-0c0deaeecf2a.png)
 
-- The one-sample t-test was used to figure out if there is a statistical difference in PSI across all manufacturing lots from the population mean of 1,500 pounds per square inch. As we can see from the image, this test returned a p-score of 0.06028, which is greater than our significance level of 0.05, meaning that we cannot reject the null hypothesis. Therefore, the two means are statistically similar. 
 - When conducting the same t-test using the subset() argument to determine if the PSI for *each* manufacturing lot is statiscally different from the population mean of 1,500 pounds per square inch, we find that Lot 1 and 2 return a p-value greater than 0.05. However Lot 3 returns a p-value of 0.04168. This means that we can reject the null hypothesis for this lot and that the two means are not statistically similar. 
+
+<p align="center">
+  <img src="https://github.com/ahmed17777/MechaCar_Statistical_Analysis-/tree/main/img/6.png" width="256" height="455">
+  <img src="https://github.com/ahmed17777/MechaCar_Statistical_Analysis-/tree/main/img/7.png" height="455">
+  <img src="https://github.com/ahmed17777/MechaCar_Statistical_Analysis-/tree/main/img/8.png" width="256" height="455">
+</p>
 
 ## Study Design: MechaCar vs Competition 
 
