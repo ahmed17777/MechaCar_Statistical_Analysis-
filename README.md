@@ -4,6 +4,7 @@ Syed Ahmed
 June 7, 2021
 
 ## Overview 
+
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
 In this challenge, I will be doing the following: 
@@ -13,6 +14,7 @@ In this challenge, I will be doing the following:
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers
 
 ## Linear Regression to Predict MPG 
+
 Using the MechaCar_mpg.csv dataset, I designed a linear regression model that predicts the mpg of MechaCar prototypes using variables such as: vehicle length, weight, ground clearance, drivetrain (AWD), and spoiler angle. Here are the results of my model: 
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -38,3 +40,14 @@ This section of the analysis answers the following question: The design specific
 - When conducting the same t-test using the subset() argument to determine if the PSI for *each* manufacturing lot is statiscally different from the population mean of 1,500 pounds per square inch, we find that Lot 1 and 2 return a p-value greater than 0.05. However Lot 3 returns a p-value of 0.04168. This means that we can reject the null hypothesis for this lot and that the two means are not statistically similar. 
 
 ## Study Design: MechaCar vs Competition 
+
+Metrics that are of interest to consumers when considering vehicle performance are: cost, fuel efficiency (city or highway), horsepower, maintenance cost, and safety ratings. In this section, I will be writing a brief description of a statistical study that can be done on vehicle fuel efficiency to quantify how MechaCar performs against the competition. 
+
+Fuel efficiency measures how far a vehicle can travel per unit of fuel. Customers look for vehicles with higher fuel efficiency as they require less gas to drive longer distances, and because fuel efficient vehicles are considered to be better for the environment. Fuel efficiency can be measured in MPG or L/100K. What we can look at in this study is whether MechaCars has a higher MPG than its competitors. One test that can be used to test our hypothesis is the one-way ANOVA test, which is used to test the means of a single dependent variable across a single independent variable with multiple groups. In our case, we can look at fuel efficiency of different cars based on vehicle class. In this test, our hypothesis would be: 
+- H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+- Ha : At least one of the means is different from all other groups.
+This means that the null hypothesis is that means of all mpgs of all groups are equal. The alternative hypothesis is that at least one of the means is different from all other groups.
+
+The data we would need for this study includes: 
+- Vehicle classes (eg. Sedan, SUV, Compact, etc)
+- MPG data 
