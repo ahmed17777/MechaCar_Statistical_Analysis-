@@ -50,8 +50,9 @@ This means that the null hypothesis is that means of all mpgs of all groups are 
 
 The data we would need for this study includes: 
 - Vehicle classes (eg. Sedan, SUV, Compact, etc)
+- MPG data 
 
 
 ### Contact 
 Email: mishaal22s@gmail.com 
-- MPG data 
+
